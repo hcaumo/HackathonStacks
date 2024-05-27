@@ -1,3 +1,5 @@
+# HackathonStacks
+
 Overview
 
 This repository contains a Lambda function that integrates with AWS DynamoDB to generate and manage blockchain wallets. Additionally, it includes smart contracts for a tokenized asset and a stablecoin written in Clarity for the Stacks blockchain. The front end for this project is built using Bubble.io.
@@ -15,11 +17,11 @@ Table of Contents
 - [Getting Started](#getting-started)
 - [License](#license)
 
-AWS Lambda Function
+## AWS Lambda Function
 
 The Lambda function is designed to generate blockchain wallets, derive keys, and store wallet information in DynamoDB. Below is the core logic of the Lambda function.
 
-Handler Function
+### Handler Function
 
 ```
 import AWS from 'aws-sdk';
@@ -100,7 +102,7 @@ async function storeWalletData(stacksAddress, bitcoinAddress) {
 
 ```
 
-DynamoDB Setup
+### DynamoDB Setup
 
 Create a DynamoDB table named StacksWalletData with the following schema:
 
@@ -114,7 +116,7 @@ Smart Contracts
 
 This repository includes two smart contracts for managing a tokenized asset and a stablecoin.
 
-Tokenized Asset Smart Contract 
+### Tokenized Asset Smart Contract 
 
 ```
 ;; Assert that this contract implements the `sip-010-trait`
@@ -176,7 +178,7 @@ Tokenized Asset Smart Contract
 
 
 
-Stablecoin Smart Contract 
+### Stablecoin Smart Contract 
 
 ```
 ;; Assert that this contract implements the `sip-010-trait`
@@ -237,10 +239,11 @@ Stablecoin Smart Contract
 
 ```
 
-Frontend
+### Frontend
 
 The frontend for this project is developed using Bubble.io. Bubble.io provides a visual interface to build web applications without needing to write code. It allows integration with various APIs and backend services, making it ideal for rapid development and deployment.
-Getting Started
+
+### Getting Started
 
     Clone the repository:
 
@@ -253,16 +256,15 @@ Getting Started
 Deploy the Lambda Function:
     Ensure you have the AWS CLI configured.
     Package and deploy the Lambda function using AWS SAM or the Serverless Framework.
+
 Setup DynamoDB:
-    Create a DynamoDB table named StacksWalletData.
+    Create a DynamoDB table named StacksWalletData with primary partition: id
+
 Deploy Smart Contracts:
     Deploy the provided smart contracts to the Stacks blockchain.
+
 Frontend Deployment:
     Use Bubble.io to create and deploy the frontend application.
 
-For more detailed instructions on each step, please refer to the specific sections above.
 
-License
 
-This project is licensed under the MIT License.
-# HackathonStacks
