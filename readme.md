@@ -245,9 +245,9 @@ The frontend for this project is developed using Bubble.io. Bubble.io provides a
 
 ### Getting Started
 
-    Clone the repository:
+Clone the repository:
 
-    ```bash
+    ```
     git clone https://github.com/your-repo/blockchain-wallet.git
     cd blockchain-wallet
     ```
