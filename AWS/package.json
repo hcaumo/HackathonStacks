@@ -1,0 +1,18 @@
+{
+  "name": "bitcoinstacks",
+  "version": "1.0.0",
+  "main": "node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@stacks/wallet-sdk": "^6.15.0",
+    "aws-sdk": "^2.1628.0",
+    "bip39": "^3.1.0",
+    "bitcoinjs-lib": "^6.1.5"
+  }
+}
