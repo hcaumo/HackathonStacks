@@ -111,7 +111,8 @@ Create a DynamoDB table named StacksWalletData with the following schema:
 Ensure you have the necessary permissions to read and write to this table.
 Lambda Layer
 
-    Ensure the Lambda function has a layer that includes the necessary Node.js modules: aws-sdk, bitcoinjs-lib, bip39, tiny-secp256k1, @stacks/transactions.
+Ensure the Lambda function has a layer that includes the necessary:
+    Node.js modules: aws-sdk, bitcoinjs-lib, bip39, tiny-secp256k1, @stacks/transactions.
 
 ### Smart Contracts
 
@@ -260,7 +261,7 @@ Deploy the Lambda Function:
     Package and deploy the Lambda function using AWS SAM or the Serverless Framework.
 
 Setup DynamoDB:
-    Create a DynamoDB table named StacksWalletData with primary partition: id
+    Create a DynamoDB table named ```StacksWalletData``` and primary partition ```id```
 
 Deploy Smart Contracts:
     Deploy the provided smart contracts to the Stacks blockchain.
