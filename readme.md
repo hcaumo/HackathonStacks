@@ -1,6 +1,6 @@
 # HackathonStacks
 
-Overview
+### Overview
 
 This repository contains a Lambda function that integrates with AWS DynamoDB to generate and manage blockchain wallets. Additionally, it includes smart contracts for a tokenized asset and a stablecoin written in Clarity for the Stacks blockchain. The front end for this project is built using Bubble.io.
 
@@ -111,8 +111,9 @@ Create a DynamoDB table named StacksWalletData with the following schema:
 Ensure you have the necessary permissions to read and write to this table.
 Lambda Layer
 
-Ensure the Lambda function has a layer that includes the necessary Node.js modules: aws-sdk, bitcoinjs-lib, bip39, tiny-secp256k1, @stacks/transactions.
-Smart Contracts
+    Ensure the Lambda function has a layer that includes the necessary Node.js modules: aws-sdk, bitcoinjs-lib, bip39, tiny-secp256k1, @stacks/transactions.
+
+### Smart Contracts
 
 This repository includes two smart contracts for managing a tokenized asset and a stablecoin.
 
@@ -248,9 +249,10 @@ The frontend for this project is developed using Bubble.io. Bubble.io provides a
 Clone the repository:
 
     
-    git clone https://github.com/your-repo/blockchain-wallet.git
-    cd blockchain-wallet
-    
+```
+git clone https://github.com/your-repo/blockchain-wallet.git
+cd blockchain-wallet
+```    
     
 
 Deploy the Lambda Function:
