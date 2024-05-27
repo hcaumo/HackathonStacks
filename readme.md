@@ -234,7 +234,8 @@ Stablecoin Smart Contract
 		(ft-mint? clarity-coin amount recipient)
 	)
 )
-````
+
+```
 
 Frontend
 
@@ -249,18 +250,15 @@ Getting Started
     ```
     
 
-    Deploy the Lambda Function:
-        Ensure you have the AWS CLI configured.
-        Package and deploy the Lambda function using AWS SAM or the Serverless Framework.
-
-    Setup DynamoDB:
-        Create a DynamoDB table named StacksWalletData.
-
-    Deploy Smart Contracts:
-        Deploy the provided smart contracts to the Stacks blockchain.
-
-    Frontend Deployment:
-        Use Bubble.io to create and deploy the frontend application.
+Deploy the Lambda Function:
+    Ensure you have the AWS CLI configured.
+    Package and deploy the Lambda function using AWS SAM or the Serverless Framework.
+Setup DynamoDB:
+    Create a DynamoDB table named StacksWalletData.
+Deploy Smart Contracts:
+    Deploy the provided smart contracts to the Stacks blockchain.
+Frontend Deployment:
+    Use Bubble.io to create and deploy the frontend application.
 
 For more detailed instructions on each step, please refer to the specific sections above.
 
