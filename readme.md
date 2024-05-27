@@ -247,10 +247,10 @@ The frontend for this project is developed using Bubble.io. Bubble.io provides a
 
 Clone the repository:
 
-    ```
+    
     git clone https://github.com/your-repo/blockchain-wallet.git
     cd blockchain-wallet
-    ```
+    
     
 
 Deploy the Lambda Function:
